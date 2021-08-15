@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-{ "name":"vijay"
+{ "from git hub":"vijay laxmi from online 2"
 }
 ]]></ee:set-payload>
 			</ee:message>
@@ -25,7 +25,7 @@ output application/json
 	<flow name="dumFlow1" doc:id="bad59e42-4f3f-4d6e-bbc5-b00ca1a92d06" >
 		<ee:transform doc:name="Transform Message" doc:id="7f72a5f1-7453-473c-a329-ca9ecd1d3729">
 			<ee:message>
-				<ee:set-payload><![CDATA["rahuls"]]></ee:set-payload>
+				<ee:set-payload><![CDATA["rahuls agrawallllllll"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>
