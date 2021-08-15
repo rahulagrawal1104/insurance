@@ -20,5 +20,13 @@ output application/json
 ]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<flow-ref doc:name="Flow Reference" doc:id="a01755bd-591d-46b7-b6c1-4ea0c8a2bf83" name="dumFlow1"/>
+	</flow>
+	<flow name="dumFlow1" doc:id="bad59e42-4f3f-4d6e-bbc5-b00ca1a92d06" >
+		<ee:transform doc:name="Transform Message" doc:id="7f72a5f1-7453-473c-a329-ca9ecd1d3729">
+			<ee:message>
+				<ee:set-payload><![CDATA["rahuls"]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
 	</flow>
 </mule>
